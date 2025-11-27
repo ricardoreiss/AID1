@@ -1,0 +1,9 @@
+Lápis 50 2.50
+Borracha 30 1.80
+Caderno 25 15.90
+Caneta 40 3.20
+Régua 20 4.50
+Mochila 15 89.90
+Livro 10 25.00
+Calculadora 8 45.00
+Estojo 35 12.50
