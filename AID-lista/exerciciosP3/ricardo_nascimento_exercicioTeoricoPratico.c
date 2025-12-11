@@ -58,13 +58,13 @@ void addM(Grafo G, int a, int b){
     link la = malloc(sizeof(struct node));
     la->d = a;
     la->next = B->next;
-    B->g += 1;
+    B->g += 2;
     B->next = la;
 
     link lb = malloc(sizeof(struct node));
     lb->d = b;
     lb->next = A->next;
-    A->g += 1;
+    A->g += 2;
     A->next = lb;
 
     G->M++;
@@ -158,3 +158,4 @@ int main(){
 	fclose(file);
 	return 0;
 }
+
